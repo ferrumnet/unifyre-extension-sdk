@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RequestSigner = void 0;
 const ferrum_plumbing_1 = require("ferrum-plumbing");
 const ferrum_crypto_1 = require("ferrum-crypto");
 class RequestSigner {

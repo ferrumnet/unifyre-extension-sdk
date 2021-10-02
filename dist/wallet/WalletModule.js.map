@@ -1,1 +1,1 @@
-{"version":3,"file":"WalletModule.js","sourceRoot":"","sources":["../../src/wallet/WalletModule.ts"],"names":[],"mappings":";;;;;;;;;;;AAEA,MAAa,YAAY;IACjB,WAAW,CAAC,CAAY;;QAC9B,CAAC;KAAA;CACF;AAHD,oCAGC"}
+{"version":3,"file":"WalletModule.js","sourceRoot":"","sources":["../../src/wallet/WalletModule.ts"],"names":[],"mappings":";;;;;;;;;;;;AAEA,MAAa,YAAY;IACjB,WAAW,CAAC,CAAY;;QAC9B,CAAC;KAAA;CACF;AAHD,oCAGC"}

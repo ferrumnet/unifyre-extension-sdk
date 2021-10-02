@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AuthenticationContext = void 0;
 class AuthenticationContext {
     __name__() { return 'AuthenticationContext'; }
     setBearerAuth(token) {

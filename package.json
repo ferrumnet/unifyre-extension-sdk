@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-and-cp": "yarn build && cp -r ./dist ../unifyre-native-wallet-components/node_modules/unifyre-extension-sdk/"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
     "cross-fetch": "^3.0.4",
     "elliptic": "git+https://github.com/ferrumnet/elliptic.git",
     "ferrum-crypto": "git+https://github.com/ferrumnet/ferrum-crypto.git",
-    "ferrum-plumbing": "git+https://github.com/ferrumnet/ferrum-plumbing.git"
+    "ferrum-plumbing": "git+https://github.com/ferrumnet/ferrum-plumbing.git",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -36,6 +38,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.13",
     "@types/node": "^13.7.1",
+    "@types/node-fetch": "^2.5.12",
     "jest": "^24.8.0",
     "ts-jest": "^26.1.0",
     "ts-lint": "^4.5.1",

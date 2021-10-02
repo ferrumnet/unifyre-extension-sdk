@@ -12,8 +12,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ServerApi = exports.ServerApiError = exports.ServerApiHeaders = void 0;
 const ferrum_plumbing_1 = require("ferrum-plumbing");
-const cross_fetch_1 = __importDefault(require("cross-fetch"));
+// import fetch from "cross-fetch";
+const node_fetch_1 = __importDefault(require("node-fetch"));
 class ServerApiHeaders {
 }
 exports.ServerApiHeaders = ServerApiHeaders;
@@ -111,7 +113,7 @@ class ServerApi {
                     Object.keys(extraHeaders).forEach(k => { headers[k] = extraHeaders[k]; });
                 }
                 this.log.debug('Headers are', headers);
-                res = yield cross_fetch_1.default(this.host + fullCommand, {
+                res = yield node_fetch_1.default(this.host + fullCommand, {
                     method: method,
                     headers: headers,
                     body: JSON.stringify(data),

@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.UnifyreExtensionKitClientImpl = exports.UnifyreExtensionKitClient = void 0;
 const ferrum_plumbing_1 = require("ferrum-plumbing");
 function getAddressForCurrency(prof, currency, accountGroupId) {
     var _a;
