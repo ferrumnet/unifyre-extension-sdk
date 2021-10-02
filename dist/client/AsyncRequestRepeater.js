@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AsyncRequestRepeater = exports.TimeoutError = exports.ASYNC_API_REQUEST_TIMEOUT = exports.ASYNC_API_REFRESH_TIMEOUT = void 0;
 exports.ASYNC_API_REFRESH_TIMEOUT = 3000;
 exports.ASYNC_API_REQUEST_TIMEOUT = 3 * 60 * 1000; // Three minute timeout
 class TimeoutError extends Error {

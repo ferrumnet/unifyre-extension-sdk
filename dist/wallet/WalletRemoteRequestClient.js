@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.WalletRemoteRequestClient = exports.InvalidRequestSignatureError = void 0;
 const ferrum_plumbing_1 = require("ferrum-plumbing");
 const RequestSigner_1 = require("../crypto/RequestSigner");
 class InvalidRequestSignatureError extends Error {

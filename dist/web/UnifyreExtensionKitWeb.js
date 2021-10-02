@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.UnifyreExtensionKitWeb = void 0;
 const ferrum_plumbing_1 = require("ferrum-plumbing");
 const ClientModule_1 = require("../client/ClientModule");
 const WebLocalJsonStorage_1 = require("./WebLocalJsonStorage");
